@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-3qz2b-o!f25!qj6)1&nhp6akg!-=lu4hjxxk5-=a-nf%y!)^lp
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'Asteroid_app_1'
+    'Asteroid_app_1',
 
 ]
 
@@ -129,5 +129,7 @@ STATIC_URL = '/static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
-STATICFILES_DIRS = [os.path.join(ROOT_PATH, 'static')]
+STATICFILES_DIRS = [os.path.join(Path(__file__).resolve().parent.parent, 'Asteroid_app_1\static')]
 
+print(os.path.join(Path(__file__).resolve().parent.parent, 'Asteroid_app_1\static'))
+print(os.path.abspath(__file__))

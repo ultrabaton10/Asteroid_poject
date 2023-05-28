@@ -15,9 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from Asteroid_app_1 import views
+from Asteroid_app_1.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.index),
+    path('', index),
+    path('about_this_site', about_this_site),
+    path('<int:get_info>', get_info),
 ]

@@ -1,48 +1,57 @@
+
+
 body {
+
     font-family: 'Ubuntu',  Arial, sans-serif;
-    height: 250px;
+    height: 2500px;
     width: 100%;
     margin: 0px;
-    text-shadow: #000 0px 0 3px, #000 3 0px 3px,
-                 #000 0px 0 -3px, #000 0 0px -3px;
+
 
 }
+
 
 header {
     height: 350px;
-    width: 100%;
+    width: 1400px;
+
 }
 
+
 .conteiner_for_all_header_and_Asteroid {
-    background-image: url('/static/Asteroid_app_1/images/greenlighting2.png');
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 1000px;
+    background-image: url('https://abrakadabra.fun/uploads/posts/2022-03/1646106285_5-abrakadabra-fun-p-molniya-na-zelenom-fone-12.jpg');
+
+    width: 1600px;
+    height: 800px;
     border-bottom: black solid 5px;
 }
 
+
 .login_user { 
     margin: 20px 20px 20px 0px;
-    height: 50px;
 }
 
-.login img {
-  height: 33px;
-  width: 33px;
-}
 
 .login { 
     text-decoration: none;
     color: aliceblue;
-    padding-bottom: 25px;
+
 }
 
+
 .wrapper_navigation {
+
     margin: 25px 0px 0px 0px;
     color: aliceblue;
     width: 90px;
     height: 50px;
+
 }
+
+
+
+
+
 
 .left_nav_real {
     text-decoration: none;
@@ -50,59 +59,80 @@ header {
     float: left;
     height: 100px;
     width: 160px;
+
 }
 
-nav { 
+
+
+
+
+
+nav {
+    
     flex-wrap: nowrap;
     display: flex;
     justify-content: space-around;
     margin: 0px 0px 30px 30px;
     padding: 50px 0px 0px 50px;
+  
     width: 1400px;
 }
+
 
 nav a {
     text-decoration: none;
     color: aliceblue;
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
+
+
 }
 
-.Asteroid_section {
-  margin: 0px 0px 0px 0px;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  height: 330px;
-  color: aliceblue;
+.span_for_h1 {
+    font-size: 30px;
+    text-align: center;
 }
 
-.conteiner_for_Asteroid_img_and_Asteroid_title {
-  width: 80%;
-  height: 80%;
+
+
+
+
+
+
+.style_for_h1::before {
+    content: url('static/Asteroid_app_1/images/Asteroid_img.png');
+    display: inline-block;
+    height: 50px;
+    width: 50px
+
 }
 
 .style_for_h1 {
-    height: 75px;
+    height: 300px;
     font-size: 150px;
-    margin: 0px 0px 0px 60px;
+    margin: 0px 0px 0px 0px;
 }
 
-h1::before {
-  content: url('/static/Asteroid_app_1/images/Asteroid_img.png');
-  float: left;
-  margin-bottom: 10px;
-  height: 200px;
-  width: 200px;
-}
+
 
 .span_for_h1 {
     font-size: 50px;
     text-align: center;
-    margin: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 200px;
     height: 125px;
-    width: 500px;
+    width: 600px;
 }
+
+
+.Asteroid_section {
+    margin: 150px 50px 0px 0px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    height: 250px;
+    color: aliceblue;
+}
+
 
 .conteiner_for_all_search {
     display: flex;
@@ -112,11 +142,10 @@ h1::before {
 
 .search_box { 
     background-color: aliceblue;
-    border: solid black 3px;
     width: 30%;
     height: 30%;
     padding: 25px 0px 0px 25px;
-    margin: -250px 0px 0px 25px;
+    margin: 0px 0px 0px 25px;
     border-radius: 50px;
 }
 
@@ -127,43 +156,42 @@ h1::before {
     width: 15px;
 }
 
-main {
-  display: flex;
-  justify-content: center;
-  height: 2000px;
+
+
+.all_main_1 {
+    height: 1800px;
 }
 
-.all_main{
-  height: 100%;
 
-}
 
 .lozung_about_my_programm_div {
-    margin: 0px 0px 0px 0px;
+    margin: 55px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
     height: 80px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
+    
 }
+
 
 .lozung_about_my_programm_section {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: center;
     align-content: center;
     height: 100px;
     margin: 0px 0px 0px 0px;
-    padding: 50px 0px 0px 0px;
+    padding: 0px 30px 0px 30px;
     border-top: black solid 2px;
     border-bottom: black solid 2px;
     font-size: 35px;
-    width: 900px;
+    width: 850px;
 }
 
+
 .plusI_ptogrammmI_trenirovok {
-    margin: 80px;
     width: auto;
     height: auto;
     display: flex;
@@ -172,88 +200,42 @@ main {
     align-content: center;
 }
 
-.section_plusi {
-    width: 80%;
+
+.section_main {
+    width: auto;
     height: auto;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     align-content: center;
+
 }
+
 
 .mini_icons {
-    display: block;
-    flex-wrap: wrap;
-    width: 300px;
-    height: 200px;
+    width: 150px;
+    height: 100px;
     border: solid black 1px;
-    margin: 10px;
-}
-
-.mini_icons img {
-  position: relative;
-  top: 20%;
-  left: 40%;
-  height: 50px;
-  width: 50px;
-}
-
-.mini_icons div {
-  position: relative;
-  top: 35%;
-  left: 30%;
-}
-
-.conteiner_for_plusov {
-  margin-top: 90px;
-  margin-left: 320px;
-  display: flex;
-  justify-content: flex-start;
-  width: 80%;
-  height: 400px;
-}
-
-.section_individual_plan_trenirovok {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  width: 55%;
-  height: 40px;
-  margin-left: 0px;
 
 }
 
-.article_cell {
-  display: flex;
-  flex-wrap: nowrap;
-  padding: 0px;
-  margin: 0px;
-  height: 100px;
-  width: 500px;
-}
 
-.article_cell img {
-  height: 30px;
-  margin: 0px 20px 0px 0px;
-}
 
-.article_cell div {
-  display: flex;
-  flex-wrap: nowrap;
-}
+
+
+
+
+
+
 .all_conteiner_for_footer {
     text-decoration: none;
     background-color: black;
-    width: 100%;
+    width: 1400px;
     height: 200px;
 }
 
-footer img {
-  height: 20px;
-  width: 20px;
-}
-
 .top_part_of_footer {
+
     height: 75px;
     display: flex;
     flex-wrap: wrap;
@@ -261,6 +243,7 @@ footer img {
     align-content: center;
     color: aliceblue;
 }
+
 
 .follow_here { 
     display: flex;
@@ -270,12 +253,17 @@ footer img {
     height: 75px;
     color: aliceblue;
     font-size: 40px;
+
 }
 
+
 .bottom_part_of_footer { 
+    
     height: 75px;
     display: flex;
     justify-content: space-around;
+    
+    
 }
 
 footer a {
